@@ -6,7 +6,7 @@ Repository with files for Project 1 of the Gettting and Cleaning Data Course
 The program in R executes the following steps to prepare the tidy data requested:
 
   1. I registered the libraries to be used and the path for the files;
-  2. I read the txt files: subject_test.txt, subject_train.txt, x_test.txt, y_test.txt, features
+  2. I read the txt files: subject_test.txt, subject_train.txt, x_test.txt, y_test.txt, features.txt
   3. For the labels based on the y files, I assigned the activities names
   4. I merged the data sets for test and train data, using rbind()
   5. Based on the measures on the features.txt file, I selected only the features containing mean() or std()
