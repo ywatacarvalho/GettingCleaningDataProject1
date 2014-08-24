@@ -14,10 +14,10 @@ The program in R executes the following steps to prepare the tidy data requested
       9. After steps 1 to 8, I had a merged table, with train and test sets, with variables with proper description and activities also with their description (from the activity_labels.txt file)
       10. I applied the melt command and then the dcast command to create the tidy data, with averages for the selected columns, by subject (column 'individuo') and by activity. 
 
-The variables created in the tidy data are the following:
+The variables created in the tidy data are described below. The first two variables correspond to the subject and the activity. The other variables are based on the means for the feature values provided in files 'x_text.txt' and 'x_train.txt':
 
     variable 'individuo' corresponds to the subject identification number - it was extracted from the files 'subject_test.txt' and 'subject_train.txt'. 
-    varlable 'activity' corresponds to the recorded activity
+    varlable 'activity' corresponds to the recorded activity - it was created from the activity code obtained from files 'y_test.txt' and 'x_test.txt' and then using the activity descriptions provided in the file 'activity_labels.txt'. 
     variable 'tBodyAcc_mean_X' corresponds to the average of feature 'tBodyAcc-mean()-X'
     variable 'tBodyAcc_mean_Y' corresponds to the average of feature 'tBodyAcc-mean()-Y'
     variable 'tBodyAcc_mean_Z' corresponds to the average of feature 'tBodyAcc-mean()-Z'
