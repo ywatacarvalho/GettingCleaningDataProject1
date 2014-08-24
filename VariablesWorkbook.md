@@ -3,7 +3,7 @@ Variable Description in the Tidy Data Created
 
 The variables created in the tidy data are the following:
 
-    variable 'individuo' corresponds to the subject identification
+    variable 'individuo' corresponds to the subject identification number
     varlable 'activity' corresponds to the recorded activity
     variable 'tBodyAcc_mean_X' corresponds to the average of feature 'tBodyAcc-mean()-X'
     variable 'tBodyAcc_mean_Y' corresponds to the average of feature 'tBodyAcc-mean()-Y'
