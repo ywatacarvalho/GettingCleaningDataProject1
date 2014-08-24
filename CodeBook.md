@@ -16,7 +16,7 @@ The program in R executes the following steps to prepare the tidy data requested
 
 The variables created in the tidy data are the following:
 
-    variable 'individuo' corresponds to the subject identification number
+    variable 'individuo' corresponds to the subject identification number - it was extracted from the files 'subject_test.txt' and 'subject_train.txt'. 
     varlable 'activity' corresponds to the recorded activity
     variable 'tBodyAcc_mean_X' corresponds to the average of feature 'tBodyAcc-mean()-X'
     variable 'tBodyAcc_mean_Y' corresponds to the average of feature 'tBodyAcc-mean()-Y'
